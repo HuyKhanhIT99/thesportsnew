@@ -1,6 +1,6 @@
 package com.thesportsnew.thesportsnew.dto;
 
-public class RoleDTO {
+public class RoleDTO extends AbstractDTO<RoleDTO> {
     private String name;
     private String code;
 
